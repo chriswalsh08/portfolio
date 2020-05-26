@@ -1,0 +1,19 @@
+// Variables
+
+$website-width: 1280px;
+$main-color: #ffa600;
+$light-color: #f4f4f4;
+$medium-color: #ccc;
+$dark-color: #333;
+$bg-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+  url("../img/webdev.jpg");
+
+// Set text color based on contrast
+
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
