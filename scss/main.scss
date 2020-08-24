@@ -298,6 +298,18 @@ img {
   }
 }
 
+// Scottbot Page
+
+#commands {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#commands td, #commands th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
 // Contact Page
 
 #contact {
