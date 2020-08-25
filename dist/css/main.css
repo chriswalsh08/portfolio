@@ -153,6 +153,8 @@ input[class^="btn-"]:hover {
     position: absolute;
     top: 50%;
     transform: translateY(-50%); }
+  .item-text-wrap a {
+    color: #fff !important; }
   .item-text-title {
     font-size: 2rem;
     padding: 0 1rem;
@@ -358,11 +360,29 @@ img {
     border-radius: 50%;
     margin-right: 0.75rem; }
 
+#about_scottbot a {
+  margin: 0 2rem; }
+
+#commands {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 2rem; }
+  #commands th {
+    background-color: #ffa600; }
+  #commands td, #commands th {
+    border: 1px solid #ddd;
+    padding: 10px; }
+  #commands td:first-child {
+    font-weight: bold; }
+  #commands tr:nth-child(odd) {
+    background-color: #f2f2f2; }
+  #commands tr:hover {
+    background-color: #ffa600;
+    transition: all .5s; }
+
 #contact-a .text-fields {
   display: grid;
-  grid-template-areas: "name email"
- "subject phone"
- "message message";
+  grid-template-areas: "name email" "subject phone" "message message";
   grid-gap: 1.2rem;
   margin-bottom: 1.2rem; }
   #contact-a .text-fields .name-input {
@@ -454,11 +474,7 @@ img {
   #home-b .stats div {
     padding: 2rem 0 1rem 0; }
   #about-a .about-info {
-    grid-template-areas: "bioimage"
- "bio"
- "aw1"
- "aw2"
- "aw3"; }
+    grid-template-areas: "bioimage" "bio" "aw1" "aw2" "aw3"; }
   #about-c {
     display: none; }
   #contact-b div {
@@ -480,11 +496,7 @@ img {
 
 @media (max-width: 900px) {
   #about-a .about-info {
-    grid-template-areas: "bioimage"
- "bio"
- "aw1"
- "aw2"
- "aw3"; } }
+    grid-template-areas: "bioimage" "bio" "aw1" "aw2" "aw3"; } }
 
 @media (max-height: 580px) {
   #header-home .header-content {
