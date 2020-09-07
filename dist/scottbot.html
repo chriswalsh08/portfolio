@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/f2e623bb10.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css" />
+  <title>Christopher J. Walsh | ScottBot</title>
+</head>
+
+<body>
+  <header id="header-inner">
+    <div class="container">
+      <nav id="main-nav">
+        <a id="main-logo" href="index.html"><img src="img/logo.png" alt="My Portfolio" id="logo" /></a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="work.html" class="current">Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section id="about_scottbot">
+  <div class="container py-2 text-center">
+    <h2 class="section-title">SCOTTBOT</h2>
+    <div class="bottom-line"></div>
+    <p class="lead">ScottBot is a Discord chat bot that was developed using the discord.py module of Python3. Scottbot is designed to
+      be modular in nature, and easily upgraded with new features because of this. Currently, he has 'fun', 'gambling',
+      and 'moderation' modules, each with their own commands, listed below. ScottBot has the ability to flip coins, roll
+      dice, moderate members of the Discord server, call external APIs, and more!</p>
+    <a href="https://discord.com/api/oauth2/authorize?client_id=742767569051582554&permissions=8&scope=bot"
+      class="btn-light" target="_blank">Add ScottBot to your server</a>
+    <a href="https://github.com/chriswalsh08/ScottBot" class="btn-light" target="_blank">Github Repository</a>
+  </div>
+  <div class="container">
+    <h2 class="text-center py-1">ScottBot's Commands</h2>
+    <table id="commands">
+      <thead>
+            <th>Command</th>
+            <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>.ban @user</td>
+          <td>Bans the mentioned user from the guild indefinitely, with a reason argument after the command. This value
+            is set to none
+            by default, so if no reason is entered, 'none' will show up in logs.</td>
+        </tr>
+        <tr>
+          <td>.kick @user</td>
+          <td>Kicks the mentioned user from the guild, with a reason argument after the command. This value is set to
+            none
+            by default, so if no reason is entered, 'none' will show up in logs.</td>
+        </tr>
+        <tr>
+          <td>.changepreset &lt;punctuation&gt;</td>
+          <td>Changes the default command preset from a period to something else. This can be a string, number, or
+            punctuation.
+          </td>
+        </tr>
+        <tr>
+          <td>.compliment @user</td>
+          <td>Scottbot compliments the mentioned user.</td>
+        </tr>
+        <tr>
+          <td>.insult @user</td>
+          <td>Scottbot insults the mentioned user.</td>
+        </tr>
+        <tr>
+          <td>.animalfact &lt;animal&gt;</td>
+          <td>Scottbot tells you a fact and shares a random image of the chosen animal through a series of API calls.
+            Works for dogs, cats, koalas, foxes, pandas, and birds.</td>
+        </tr>
+        <tr>
+          <td>.conch &lt;question&gt;</td>
+          <td>Ask the Almighty Conch a question... if you dare!</td>
+        </tr>
+        <tr>
+          <td>.coinflip</td>
+          <td>Scottbot flips a coin.</td>
+        </tr>
+        <tr>
+          <td>.roll &lt;dice&gt;</td>
+          <td>Scottbot rolls any of the 'common' dice - 1d4, 1d6, 1d8, 1d10, 1d20, and 1d100.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  </section>
+  <!-- Footer -->
+  <footer id="main-footer">
+    <div class="footer-content container">
+      <p>Christopher Walsh &copy; 2020. All Rights Reserved</p>
+      <div class="social">
+        <a href="https://www.github.com/chriswalsh08" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/christopher-james-walsh" target="_blank"><i
+            class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
