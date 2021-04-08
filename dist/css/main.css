@@ -1,5 +1,5 @@
 .container {
-  max-width: 1280px;
+  max-width: 1440px;
   padding: 1.5rem;
   margin: auto;
   overflow: hidden; }
@@ -382,9 +382,7 @@ img {
 
 #contact-a .text-fields {
   display: grid;
-  grid-template-areas: "name email"
- "subject phone"
- "message message";
+  grid-template-areas: "name email" "subject phone" "message message";
   grid-gap: 1.2rem;
   margin-bottom: 1.2rem; }
   #contact-a .text-fields .name-input {
@@ -476,11 +474,7 @@ img {
   #home-b .stats div {
     padding: 2rem 0 1rem 0; }
   #about-a .about-info {
-    grid-template-areas: "bioimage"
- "bio"
- "aw1"
- "aw2"
- "aw3"; }
+    grid-template-areas: "bioimage" "bio" "aw1" "aw2" "aw3"; }
   #about-c {
     display: none; }
   #contact-b div {
@@ -502,11 +496,7 @@ img {
 
 @media (max-width: 900px) {
   #about-a .about-info {
-    grid-template-areas: "bioimage"
- "bio"
- "aw1"
- "aw2"
- "aw3"; } }
+    grid-template-areas: "bioimage" "bio" "aw1" "aw2" "aw3"; } }
 
 @media (max-height: 580px) {
   #header-home .header-content {
