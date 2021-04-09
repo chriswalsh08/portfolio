@@ -264,8 +264,12 @@ img {
   &-c {
     .about-logos {
       display: grid;
-      grid-template-columns: repeat(5, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       grid-gap: 2rem;
+      justify-content: space-evenly;
+      justify-items: center;
+      align-content: space-evenly;
+      align-items: center;
 
       img {
         width: 70%;

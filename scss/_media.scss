@@ -1,7 +1,7 @@
 // Tablets & Smaller
 @media (max-width: 800px) {
   #header-home {
-    height: 30rem;
+    height: 50rem;
 
     .header-content {
       padding-top: 5rem;
@@ -85,15 +85,8 @@
       .about-info {
         grid-template-areas:
           "bioimage"
-          "bio"
-          "aw1"
-          "aw2"
-          "aw3";
+          "bio";
       }
-    }
-
-    &-c {
-      display: none;
     }
   }
 
@@ -138,10 +131,7 @@
       .about-info {
         grid-template-areas:
           "bioimage"
-          "bio"
-          "aw1"
-          "aw2"
-          "aw3";
+          "bio";
       }
     }
   }
