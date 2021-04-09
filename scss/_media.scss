@@ -36,6 +36,17 @@
     }
   }
 
+  // Contact form alignment
+  #contact-a .text-fields {
+    grid-template-areas: 
+      "name"
+      "email"
+      "subject"
+      "phone"
+      "message"
+      "message"
+  }
+
   // Stack Grid Columns
   #home-a .specials,
   #home-b .stats,
@@ -45,6 +56,8 @@
   .items {
     grid-template-columns: 1fr;
   }
+
+  
 
   #home {
     &-a {

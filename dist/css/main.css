@@ -169,6 +169,9 @@ input[class^="btn-"]:hover {
   padding: 0;
   margin: 0; }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
   font-family: "Dosis", sans-serif;
   line-height: 1.6;
@@ -458,6 +461,8 @@ img {
       display: none; }
   #header-inner {
     height: 10rem; }
+  #contact-a .text-fields {
+    grid-template-areas: "name" "email" "subject" "phone" "message" "message"; }
   #home-a .specials,
   #home-b .stats,
   #home-c .process,
