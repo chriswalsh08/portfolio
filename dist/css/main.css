@@ -231,7 +231,7 @@ img {
     border-bottom: none; }
 
 #header-home {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/webdev.jpg") no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/frogman_adventures.gif") no-repeat center center/cover;
   height: 100vh;
   color: #fff; }
   #header-home .header-content {
@@ -242,7 +242,7 @@ img {
       line-height: 1.2; }
 
 #header-inner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/webdev.jpg") no-repeat 0% 0%/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/frogman_adventures.gif") no-repeat 0% 0%/cover;
   height: 5.5rem;
   border-bottom: 3px solid #ffa600; }
 
@@ -400,7 +400,9 @@ img {
 
 #contact-a .text-fields {
   display: grid;
-  grid-template-areas: "name email" "subject phone" "message message";
+  grid-template-areas: "name email"
+ "subject phone"
+ "message message";
   grid-gap: 1.2rem;
   margin-bottom: 1.2rem; }
   #contact-a .text-fields .name-input {
@@ -479,7 +481,12 @@ img {
   #header-inner {
     height: 10rem; }
   #contact-a .text-fields {
-    grid-template-areas: "name" "email" "subject" "phone" "message" "message"; }
+    grid-template-areas: "name"
+ "email"
+ "subject"
+ "phone"
+ "message"
+ "message"; }
   #home-a .specials,
   #home-b .stats,
   #home-c .process,
@@ -496,7 +503,8 @@ img {
   #home-b .stats div {
     padding: 2rem 0 1rem 0; }
   #about-a .about-info {
-    grid-template-areas: "bioimage" "bio"; }
+    grid-template-areas: "bioimage"
+ "bio"; }
   #contact-b div {
     margin-bottom: 1rem;
     padding-bottom: 1rem;
@@ -516,7 +524,8 @@ img {
 
 @media (max-width: 900px) {
   #about-a .about-info {
-    grid-template-areas: "bioimage" "bio"; } }
+    grid-template-areas: "bioimage"
+ "bio"; } }
 
 @media (max-height: 580px) {
   #header-home .header-content {
